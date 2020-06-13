@@ -1,0 +1,1 @@
+insert into test_migf_message(id, name, text) values (1, 'a', 'b')

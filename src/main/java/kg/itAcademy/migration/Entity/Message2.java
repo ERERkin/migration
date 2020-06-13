@@ -12,13 +12,12 @@ import javax.persistence.*;
 @Getter
 @Setter
 @FieldDefaults(level = AccessLevel.PRIVATE)
-@Table(name = "test_migF_message")
-public class Message {
+@Table(name = "test_migf_message2")
+public class Message2 {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     Long id;
 
     String name;
     String text;
-    int num;
 }

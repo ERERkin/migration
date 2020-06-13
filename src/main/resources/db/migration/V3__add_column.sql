@@ -1,0 +1,1 @@
+alter table test_migf_message add num int4
